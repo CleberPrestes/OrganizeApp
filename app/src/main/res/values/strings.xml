@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">OrganizaAula</string>
+    <string name="sobre">Sobre</string>
+    <string name="objetivo">Organizador de disciplinas, horários e turmas para alunos e professores.</string>
+    <string name="curso">Especialiazação em Java - Turma XXI</string>
+    <string name="autor">Cleber dos Santos Prestes de Oliveira</string>
+    <string name="email_autor">cleberprestes@hotmail.com</string>
+    <string name="aula_1">Aula 1</string>
+    <string name="aula_2">Aula 2</string>
+    <string name="aula_3">Aula 3</string>
+    <string name="aula_4">Aula 4</string>
+    <string name="aula_5">Aula 5</string>
+    <string name="limpar">Limpar</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="erro_disciplina_vazia">Disciplina vazia</string>
+    <string name="nova_aula">Nova Aula</string>
+    <string name="alterar_aula">Alterar Aula</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="salvar">Salvar</string>
+    <string name="alterar">Alterar</string>
+    <string name="excluir">Excluir</string>
+    <string name="novo">Novo</string>
+    <string name="erro_dia">Erro dia da semana</string>
+    <string name="erro_periodo_nao_selecionado">Periodo não selecionado</string>
+</resources>

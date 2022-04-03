@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastraAulaActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Disciplina"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxAulaCinco"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxAulaCinco" />
+
+    <EditText
+        android:id="@+id/editTextDisciplina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Periodo"
+        app:layout_constraintStart_toStartOf="@+id/spinnerDiasSemana"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerDiasSemana" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPeriodo"
+        android:layout_width="128dp"
+        android:layout_height="142dp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <RadioButton
+            android:id="@+id/radioButtonManha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Manha" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTarde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:baselineAligned="false"
+            android:text="Tarde" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNoite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Noite" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Aulas"
+        app:layout_constraintStart_toStartOf="@+id/radioGroupPeriodo"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupPeriodo" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAulaUm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/aula_1"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAulaDois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aula_2"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxAulaUm"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxAulaUm" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAulaTres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aula_3"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxAulaDois"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxAulaDois" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAulaQuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aula_4"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxAulaTres"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxAulaTres" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAulaCinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aula_5"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxAulaQuatro"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxAulaQuatro" />
+
+    <Spinner
+        android:id="@+id/spinnerDiasSemana"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="Dia da Semana"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="27dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

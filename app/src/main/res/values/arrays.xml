@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="logotipo_dias_semana">
+        <item>@drawable/segunda</item>
+        <item>@drawable/terca</item>
+        <item>@drawable/quarta</item>
+        <item>@drawable/quinta</item>
+        <item>@drawable/sexta</item>
+        <item>@drawable/segunda</item>
+        <item>@drawable/terca</item>
+        <item>@drawable/quarta</item>
+        <item>@drawable/quinta</item>
+        <item>@drawable/sexta</item>
+
+    </integer-array>
+
+    <string-array name="dias">
+        <item>@string/segunda_feira</item>
+        <item>@string/terca_feira</item>
+        <item>@string/quarta_feira</item>
+        <item>@string/quinta_feira</item>
+        <item>@string/sexta_feira</item>
+        <item>@string/segunda_feira</item>
+        <item>@string/terca_feira</item>
+        <item>@string/quarta_feira</item>
+        <item>@string/quinta_feira</item>
+        <item>@string/sexta_feira</item>
+
+    </string-array>
+
+    <string-array name="peridos">
+        <item>@string/manha</item>
+        <item>@string/tarde</item>
+        <item>@string/noite</item>
+        <item>@string/tarde</item>
+        <item>@string/noite</item>
+        <item>@string/manha</item>
+        <item>@string/tarde</item>
+        <item>@string/noite</item>
+        <item>@string/tarde</item>
+        <item>@string/noite</item>
+
+    </string-array>
+
+    <string-array name="aulas">
+        <item>@string/aula_1</item>
+        <item>@string/aula_2</item>
+        <item>@string/aula_3</item>
+        <item>@string/aula_4</item>
+        <item>@string/aula_5</item>
+        <item>@string/aula_1</item>
+        <item>@string/aula_2</item>
+        <item>@string/aula_3</item>
+        <item>@string/aula_4</item>
+        <item>@string/aula_5</item>
+    </string-array>
+
+    <string-array name="disciplinas">
+        <item>"Ingles"</item>
+        <item>"Ingles"</item>
+        <item>"Ingles"</item>
+        <item>"Ingles"</item>
+        <item>"Ingles"</item>
+        <item>"Ingles"</item>
+        <item>"Ingles"</item>
+        <item>"Ingles"</item>
+        <item>"Ingles"</item>
+        <item>"Ingles"</item>
+
+    </string-array>
+
+
+    <string name="tarde">Tarde</string>
+    <string name="manha">Manha</string>
+    <string name="noite">Noite</string>
+    <string name="segunda_feira">Segunda Feira</string>
+    <string name="terca_feira">Terca Feira</string>
+    <string name="quarta_feira">Quarta Feira</string>
+    <string name="quinta_feira">Quinta Feira</string>
+    <string name="sexta_feira">Sexta Feira</string>
+</resources>
